@@ -12,15 +12,39 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header class="container-fluid bg-dark">
-        <nav class="row py-2">
-            <nav class="col-6 dashed-b">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container">
                 <img src="IMG/duck.png" alt="Bootstrap" width="auto" height="60">
-            </nav>
-            <nav class="col-6 dashed-b">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                   <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Catalogo libri</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Anagrafica utente</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Storico prestiti</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" aria-disabled="true">Help</a>
+                     </li>
+                  </ul>
+       
+                  <form class="d-flex justify-content-end" data-bs-theme="ligth" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
+                    <button class="btn btn-outline" type="submit">Cerca</button>
+                  </form>
+                </div>
+
+            </div>
+          </nav>
                 
-            </nav>
-        </nav>
+           
     </header>
     
     <!--BOOTSTRAP-JAVASCRIPT-->
