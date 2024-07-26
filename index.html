@@ -50,16 +50,16 @@
     <main class="container">
         
         <nav class="row navbar justify-content-center py-4 ">
-            <div class="col-6 col-md-5 ">
+            <div class="col-6 ">
                 <span class="navbar-brand mb-0 h1">Catalogo Libri</span>
             </div>
-            <div class="col-6 col-md-5 justify-content-end d-flex">
+            <div class="col-6 justify-content-end d-flex">
                 <button class="btn btn-primary" type="button">Aggiungi Libro</button>
             </div>
         </nav>
         
         <div class="row justify-content-center g-3">
-            <div class="col-12 col-md-10 col-lg-7 dashed-border">
+            <div class="col-12 col-lg-8 dashed-border">
                 <table class="table table-striped">
                     <thead>
                       <tr>
@@ -90,7 +90,53 @@
                     </tbody>
                   </table>
             </div>
-            <div class="col-12 col-md-10 col-lg-3 dashed-border"></div>
+            <div class="col-12 col-lg-4 dashed-border">
+                
+                <div class="card mb-3">
+                    <div class="card-header">
+                      Todo
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                          <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                          <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti scaduti</label>
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                          <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+                        </li>
+                      </ul>  
+                </div>
+
+                <div class="card mb-5">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Come aggiungere un nuovo libro?</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Come posso accedere all'anagrafica utenti?</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Posso usare questa dashboard da mobile?</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                
+            </div>
         </div>
     </main>
     
