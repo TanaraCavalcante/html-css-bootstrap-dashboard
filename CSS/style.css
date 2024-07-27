@@ -6,4 +6,10 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.line-div{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(237, 232, 232);
+}
  
