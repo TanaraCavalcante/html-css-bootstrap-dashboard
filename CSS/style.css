@@ -3,13 +3,13 @@ a{
     color: white;
 }
 
-tr :nth-child(2){
-    display: none;
+tr:nth-child(2){
+    display:none;
 }
 
 @media  screen and (min-width: 720px){
-    tr :nth-child(2){
-       display: table-cell;
+    tr:nth-child(2){
+       display: table;
     }
 }
 
